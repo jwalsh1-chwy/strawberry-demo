@@ -7,6 +7,7 @@ authors = ["Jason Walsh <jwalsh1@chewy.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 strawberry-graphql = {extras = ["debug-server"], version = "^0.102.2"}
+localstack = "^0.14.0"
 
 [tool.poetry.dev-dependencies]
 
